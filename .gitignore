@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+runs/
+results*/
+*.pth
+*.pt
+*.onnx
+xai/*.pdf
+
+FishFreshNetV1.png
+数据集获取.png
+FishFreshNetV1.docx
+~$*.docx
+.DS_Store
+Thumbs.db
