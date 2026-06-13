@@ -2,16 +2,23 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
+# Local datasets and generated outputs
+MFED/
+data/
+datasets/
 runs/
 results*/
+
+# Model/export artifacts
 *.pth
 *.pt
 *.onnx
-xai/*.pdf
 
-FishFreshNetV1.png
-数据集获取.png
-FishFreshNetV1.docx
+# Manuscripts and temporary office files are private.
+*.docx
+*.doc
+*.pdf
 ~$*.docx
+
 .DS_Store
 Thumbs.db
